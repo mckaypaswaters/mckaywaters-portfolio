@@ -1,0 +1,28 @@
+.about-push {
+    width: 100vw;
+    height: 10vh;
+}
+.about-container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .about-img-container {
+        width: 50%;
+        height: 80%;
+        // border: solid black 1px;
+        display: flex;
+        justify-content: center;
+        .about-img {
+            width: 60%;
+            height: auto;
+        }
+    }
+    .about-text-container {
+        width: 50%;
+        height: 80%;
+        border: solid black 1px;
+    }
+}
