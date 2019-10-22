@@ -1,0 +1,18 @@
+.logo-img {
+    width: 10%;
+    height: auto;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    list-style: none;
+    font-size: 30px;
+    align-items: center;
+    .a-tags {
+        text-decoration: none;
+        color: white;
+        margin: 25px;
+    }
+}

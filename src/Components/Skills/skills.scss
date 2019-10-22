@@ -1,0 +1,33 @@
+.skills-container-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.skills-container {
+    display: grid;
+    width: auto;
+    padding: 0 18%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 18%;
+    grid-column-gap: 9%;
+    justify-content: center;
+    align-items: center;
+
+    .skills-container > img {
+        width: 175px;
+        height: auto;
+    }
+}
+.skills-container {
+    transition: transform .25s;
+}
+
+i {
+    font-size: 175px;
+    // opacity: .75;
+}
+i:hover {
+    transform: scale(1.25);
+    // opacity: 1;
+}

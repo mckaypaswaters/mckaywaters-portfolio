@@ -1,0 +1,28 @@
+
+.projectPush {
+    width: 100vw;
+    height: 10vh;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    .projectOne {
+        max-height: 50%;
+        width: 40%;
+        margin-right: 2.5%;
+    }
+    .projectTwo {
+        max-height: 50%;
+        width: 40%;
+        margin-left: 2.5%;
+    }
+}
+.projectsImg {
+    height: 350px;
+    object-fit: cover;
+}
