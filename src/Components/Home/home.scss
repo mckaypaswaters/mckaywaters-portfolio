@@ -1,0 +1,23 @@
+@import '../../App.scss';
+
+.home-push {
+    height: 10vh;
+    width: 100%;
+}
+.home-parent {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+.home-text-container {
+    height: 70%;
+    width: 30%;
+    margin-left: 19%;
+    color: white;
+    font-family: $fontFamily;
+    font-size: 22px;
+    @include displayCenterCenter(flex, center, center, column);
+    
+}

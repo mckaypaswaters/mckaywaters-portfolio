@@ -1,5 +1,29 @@
-.logo-img {
-    width: 10%;
+@import '../../App.scss';
+
+#cf {
+    position: relative;
+    height: auto;
+    width: 20%;
+    margin-bottom: 4.5%;
+}
+
+#cf img {
+    position: absolute;
+    // webkit-transition: opacity .25s ease-in-out;
+    // -moz-transition: opacity .25s ease-in-out;
+    // -o-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+}
+#cf img.top:hover {
+    opacity:0;
+  }
+
+.top {
+    width: 50%;
+    height: auto;
+}
+.bottom {
+    width: 50%;
     height: auto;
 }
 
@@ -9,10 +33,15 @@
     color: white;
     list-style: none;
     font-size: 30px;
+    font-family: $fontFamily;
     align-items: center;
     .a-tags {
         text-decoration: none;
         color: white;
         margin: 25px;
     }
+    .a-tags:hover {
+        color: $hoverColor;
+    }
 }
+

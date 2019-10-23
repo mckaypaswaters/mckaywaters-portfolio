@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './about.scss'
-import aboutImg from '../../assets/about_page.JPG'
+import aboutImg from '../../assets/ajr.jpg'
 
 export default class About extends Component {
     render(){

@@ -13,21 +13,16 @@
     grid-column-gap: 9%;
     justify-content: center;
     align-items: center;
-
-    .skills-container > img {
-        width: 175px;
-        height: auto;
-    }
 }
 .skills-container {
     transition: transform .25s;
 }
 
-i {
+.skill-icons {
     font-size: 175px;
     // opacity: .75;
 }
-i:hover {
+.skill-icons:hover {
     transform: scale(1.25);
     // opacity: 1;
 }

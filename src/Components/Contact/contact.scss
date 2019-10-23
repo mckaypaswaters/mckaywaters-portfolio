@@ -1,0 +1,39 @@
+@import '../../App.scss';
+
+.contact-push {
+    width: 100%;
+    height: 10vh;
+}
+.contact-parent {
+    width: 100%;
+    height: 90vh;
+    @include displayCenterCenter(flex, center, center, null)
+}
+.contact-container {
+    height: 90%;
+    width: 75%;
+    // border: solid white 1px;
+    @include displayCenterCenter(flex, space-evenly, null, column);
+    margin-left: 25%;
+}
+.contact-icon-container {
+    @include displayCenterCenter(flex, null, null, row);
+    text-decoration: none;
+    color: white;
+    font-family: $fontFamily;
+    align-items: center;
+    
+}
+.contact-icon-container:hover {
+    color: $hoverColor;
+}
+.contact-icon {
+    font-size: 100px;
+}
+.contact-icon-phone {
+    font-size: 100px;
+    margin-left: 2%;
+}
+.contact-text {
+    margin-left: 10%;
+}

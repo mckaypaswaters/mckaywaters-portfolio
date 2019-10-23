@@ -1,12 +1,16 @@
 import React, {Component} from 'react'
 import logo from '../../assets/mckay2_lettersonly.png'
+import logo2 from '../../assets/mckay2_lettersonly(1).png'
 import './nav.scss'
 
 export default class Nav extends Component {
     render(){
         return (
             <div id="nav">
-                <img className='logo-img' src={logo} alt=""/>
+            <div id="cf">
+                <img className='bottom' src={logo2} alt=""/>
+                <img className='top' src={logo} alt=""/>
+            </div>
                 <ul className='nav-bar'>
                     <a className='a-tags' href="#home">
                         <li>Home</li>
