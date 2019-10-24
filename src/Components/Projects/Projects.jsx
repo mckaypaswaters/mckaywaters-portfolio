@@ -24,14 +24,14 @@ export default class Projects extends Component {
             <div id="projects">
                 <div className="projectPush"></div>
                 <div className="project-container">
-                    <div className="projectOne">
-                        <Slider {...settings}>
-                            <img className='projectsImg' src={image1} alt=""/>
-                            <img className='projectsImg' src={image2} alt=""/>
-                            <img className='projectsImg' src={image3} alt=""/>
-                            <img className='projectsImg' src={image4} alt=""/>
-                        </Slider>
-                    </div>
+                        <div className="projectOne">
+                            <Slider {...settings}>
+                                <img className='projectsImg' src={image1} alt=""/>
+                                <img className='projectsImg' src={image2} alt=""/>
+                                <img className='projectsImg' src={image3} alt=""/>
+                                <img className='projectsImg' src={image4} alt=""/>
+                            </Slider>
+                        </div>
                     <div className="projectTwo">
                         <Slider {...settings}>
                             <img className='projectsImg' src="https://images.unsplash.com/photo-1517649281203-dad836b4abe5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt=""/>

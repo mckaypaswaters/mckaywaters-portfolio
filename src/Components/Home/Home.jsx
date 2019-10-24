@@ -9,8 +9,8 @@ export default class Home extends Component {
                 <div className="home-parent">
                     <div className="home-text-container">
                         <h1>I am a gamer</h1>
+                        <h1>I am a music lover</h1>
                         <h1>I am a videographer</h1>
-                        <h1>I am a Lithuanian speaker</h1>
                         <h1>I am a developer</h1>
                     </div>
                 </div>

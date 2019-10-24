@@ -11,18 +11,19 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
+    border: solid white 1px;
     .projectOne {
-        max-height: 50%;
-        width: 40%;
+        width: 42%;
         margin-right: 2.5%;
     }
     .projectTwo {
-        max-height: 50%;
-        width: 40%;
+        width: 42%;
         margin-left: 2.5%;
     }
+    .projectsImg {
+        height: 350px;
+        // object-fit: cover;
+    }
 }
-.projectsImg {
-    height: 350px;
-    object-fit: cover;
-}
+
+

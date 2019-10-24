@@ -15,6 +15,7 @@
     // border: solid white 1px;
     @include displayCenterCenter(flex, space-evenly, null, column);
     margin-left: 25%;
+    cursor: pointer;
 }
 .contact-icon-container {
     @include displayCenterCenter(flex, null, null, row);

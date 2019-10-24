@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .skills-container-container {
     display: flex;
     justify-content: center;
@@ -22,7 +24,42 @@
     font-size: 175px;
     // opacity: .75;
 }
-.skill-icons:hover {
+
+.skills-icon-name {
+    @include displayCenterCenter(flex, center, center, column);
+    font-family: $fontFamily;
+    .js-text {
+        color: #F0DB4F;
+    }
+    .react-text {
+        color: #61DAFB;
+    }
+    .node-text {
+        color: #83CD29;
+    }
+    .html-text {
+        color: #E54D26;
+    }
+    .css-text {
+        color: #3D8FC6;
+    }
+    .sass-text {
+        color: #CC6699;
+    }
+    .elephant-text {
+        color: #336791;
+    }
+    .vue-text {
+        color: #41B883;
+    }
+    .express-text {
+        color: #444444;
+    }
+    .git-text {
+        color: #F34F29;
+    }
+}
+.skills-icon-name:hover {
     transform: scale(1.25);
     // opacity: 1;
 }

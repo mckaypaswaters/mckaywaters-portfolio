@@ -19,5 +19,5 @@
     font-family: $fontFamily;
     font-size: 22px;
     @include displayCenterCenter(flex, center, center, column);
-    
+    text-align: center;
 }
