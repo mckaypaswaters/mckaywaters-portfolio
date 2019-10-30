@@ -59,6 +59,9 @@
     .list-holder {
         color: white;
         font-family: $fontFamily;
+        ul {
+            margin-left: -25px;
+        }
     }
     .projectsImg5 {
         height: 350px;

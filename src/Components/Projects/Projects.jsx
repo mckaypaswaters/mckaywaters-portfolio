@@ -36,9 +36,10 @@ export default class Projects extends Component {
                         </div>
                         <div className="list-holder">
                             <ul>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores adipisci aliquam quasi expedita cum necessitatibus animi quod, quidem deleniti</li>
-                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quasi ex nostrum fuga neque, veritatis laborum cumque dolores laudantium</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Photography Website created for my sister to display her portfolio</li>
+                                <li>Built using JavaScript, HTML5, Sass, React, Express, PostgreSQL, Amazon S3, and Twilio</li>
+                                <li>As an admin on this site you have the ability to add, edit, and delete any photos form the gallery of photos</li>
+                                <li>As a user you can view this gallery, read the about page, and contact the admin using Twilio to get in contact quickly</li>
                             </ul>
                         </div>
                     </div>
@@ -58,9 +59,8 @@ export default class Projects extends Component {
                         </div>
                         <div className="list-holder">
                             <ul>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores adipisci aliquam quasi expedita cum necessitatibus animi quod, quidem deleniti</li>
-                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quasi ex nostrum fuga neque, veritatis laborum cumque dolores laudantium</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>This is a group project that is currently in production</li>
+                                <li>It is our take on the Arcade game Pacman</li>
                             </ul>
                         </div>
                     </div>
