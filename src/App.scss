@@ -46,11 +46,11 @@ body {
   background: url('./assets/yellowstone.JPG');
   @include viewHeight();
 }
-#home:active {
-  background: url('./assets/mckay-doom2.gif');
-  background-size: cover;
-  background-position-y: center;
-}
+// #home:active {
+//   background: url('./assets/mckay-doom2.gif');
+//   background-size: cover;
+//   background-position-y: center;
+// }
 #about {
   // background: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(86,86,86,1) 8%, rgba(168,168,168,1) 92%, rgba(207,207,207,1) 100%);
   background: url('https://images.unsplash.com/photo-1556610626-f0ecb76ecca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
