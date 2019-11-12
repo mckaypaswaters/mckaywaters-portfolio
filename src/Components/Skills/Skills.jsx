@@ -9,7 +9,7 @@ export default class Skills extends Component {
                 <div className="skills-container-container">
                     <div className="skills-container">
                         <div className="skills-icon-name">
-                            <h2 className='js-text'>JavaScipt</h2>
+                            <h2 className='js-text'>JavaScript</h2>
                             <i className="skill-icons devicon-javascript-plain colored"></i>
                         </div>
                         <div className="skills-icon-name">
@@ -29,8 +29,8 @@ export default class Skills extends Component {
                             <i className="skill-icons devicon-css3-plain colored"></i>
                         </div>
                         <div className="skills-icon-name">
-                            <h2 className='elephant-text'>PostgreSQL</h2>
-                            <i className="skill-icons devicon-postgresql-plain colored"></i>
+                        <h2 className='express-text'>Express</h2>
+                            <i className="skill-icons devicon-express-original colored"></i>
                         </div>
                         <div className="skills-icon-name">
                             <h2 className='sass-text'>Sass</h2>
@@ -42,12 +42,13 @@ export default class Skills extends Component {
                             <i className="skill-icons devicon-git-plain colored"></i>
                         </div>
                         <div className="skills-icon-name">
-                            <h2 className='express-text'>Express</h2>
-                            <i className="skill-icons devicon-express-original colored"></i>
+                        <h2 className='vue-text'>Vue</h2>
+                            <i className="skill-icons devicon-vuejs-plain colored"></i>
+                            
                         </div>
                         <div className="skills-icon-name">
-                            <h2 className='vue-text'>Vue</h2>
-                            <i className="skill-icons devicon-vuejs-plain colored"></i>
+                            <h2 className='elephant-text'>PostgreSQL</h2>
+                            <i className="skill-icons devicon-postgresql-plain colored"></i>
                         </div>
                     </div>
                 </div>

@@ -55,20 +55,28 @@ body {
   // background: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(86,86,86,1) 8%, rgba(168,168,168,1) 92%, rgba(207,207,207,1) 100%);
   background: url('https://images.unsplash.com/photo-1556610626-f0ecb76ecca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
   @include viewHeight();
+  background-color: rgba(255, 255, 255, .1);
+  background-blend-mode: lighten;
 }
 #projects {
   // background: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(86,86,86,1) 8%, rgba(168,168,168,1) 92%, rgba(207,207,207,1) 100%);
   background: url('https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
   @include viewHeight();
+  background-color: rgba(255, 255, 255, .2);
+  background-blend-mode: lighten;
 }
 #skills {
   // background: url('./assets/dark.jpg');
   // background: $linearGradient;
   background: url('https://images.unsplash.com/photo-1571586100122-0869bd6e77c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
   @include viewHeight();
+  background-color: rgba(255, 255, 255, .3);
+  background-blend-mode: lighten;
 }
 #contact {
   // background: $linearGradient;
   background: url('https://images.unsplash.com/photo-1441731803376-430fac71134d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
   @include viewHeight();
+  background-color: rgba(255, 255, 255, .1);
+  background-blend-mode: lighten;
 }

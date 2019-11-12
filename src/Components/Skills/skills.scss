@@ -29,34 +29,44 @@
     @include displayCenterCenter(flex, center, center, column);
     font-family: $fontFamily;
     .js-text {
-        color: #F0DB4F;
+        // color: #F0DB4F;
+        color: rgb(23, 23, 23);
     }
     .react-text {
-        color: #61DAFB;
+        // color: #61DAFB;
+        color: rgb(23, 23, 23);
     }
     .node-text {
-        color: #83CD29;
+        // color: #83CD29;
+        color: rgb(23, 23, 23);
     }
     .html-text {
-        color: #E54D26;
+        // color: #E54D26;
+        color: rgb(23, 23, 23);
     }
     .css-text {
-        color: #3D8FC6;
+        // color: #3D8FC6;
+        color: rgb(23, 23, 23);
     }
     .sass-text {
-        color: #CC6699;
+        // color: #CC6699;
+        color: rgb(23, 23, 23);
     }
     .elephant-text {
-        color: #336791;
+        // color: #336791;
+        color: rgb(23, 23, 23);
     }
     .vue-text {
-        color: #41B883;
+        // color: #41B883;
+        color: rgb(23, 23, 23);
     }
     .express-text {
-        color: #444444;
+        // color: #444444;
+        color: rgb(23, 23, 23);
     }
     .git-text {
-        color: #F34F29;
+        // color: #F34F29;
+        color: rgb(23, 23, 23);
     }
 }
 .skills-icon-name:hover {

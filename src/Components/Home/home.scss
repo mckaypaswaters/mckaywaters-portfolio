@@ -20,4 +20,19 @@
     font-size: 22px;
     @include displayCenterCenter(flex, center, center, column);
     text-align: center;
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    h1 {
+        margin: 4% 0;
+    }
 }

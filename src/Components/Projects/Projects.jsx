@@ -21,7 +21,7 @@ export default class Projects extends Component {
                 <div className="projectPush"></div>
                 <div className="project-container">
                     <div className="personal-holder">
-                        <a href="https://www.canon-creative.com">
+                        <a target='_blank' rel="noopener noreferrer" href="https://www.canon-creative.com">
                             <h1>Canon Creative</h1>
                         </a>
                         <div className="project-photos-holder">
@@ -40,11 +40,12 @@ export default class Projects extends Component {
                                 <li>Built using JavaScript, HTML5, Sass, React, Express, PostgreSQL, Amazon S3, and Twilio</li>
                                 <li>As an admin on this site you have the ability to add, edit, and delete any photos form the gallery of photos</li>
                                 <li>As a user you can view this gallery, read the about page, and contact the admin using Twilio to get in contact quickly</li>
+                                <li>Live site: <a target='_blank' rel="noopener noreferrer" href="https://www.canon-creative.com">Canon Creative</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="personal-holder">
-                        <a href="https://www.canon-creative.com">
+                        <a target='_blank' rel="noopener noreferrer" href="https://www.waka2.dev">
                             <h1>Waka<sup>2</sup></h1>
                         </a>
                         <div className="project-photos-holder">
@@ -59,8 +60,11 @@ export default class Projects extends Component {
                         </div>
                         <div className="list-holder">
                             <ul>
-                                <li>This is a group project that is currently in production</li>
-                                <li>It is our take on the Arcade game Pacman</li>
+                                <li>Waka<sup>2</sup> is a full clone of the original 1980 classic arcade game Pacman</li>
+                                <li>Built using JavaScript, HTML5, Sass, React, Express, and PostgreSQL</li>
+                                <li>As a user you can enter either 1 player or 2 player and play the classic game of Pacman or play against a friend</li>
+                                <li>Each ghost individually has an algorithm that is used to track Pacmans location on the board</li>
+                                <li>Live site: <a target='_blank' rel="noopener noreferrer" href="https://www.waka2.dev">Waka<sup>2</sup></a> (Only works on desktop)</li>
                             </ul>
                         </div>
                     </div>
