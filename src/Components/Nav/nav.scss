@@ -68,7 +68,13 @@
     
   }
   @media (min-width: 483px) {
-    
+    .nav-icons {
+        margin-left: 75px;
+        i {
+            font-size: 30px;
+            margin: 0 15px;
+        }
+    }
   }
   @media (min-width: 768px) {
     .nav-bar {
