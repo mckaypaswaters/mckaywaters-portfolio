@@ -36,3 +36,34 @@
         margin: 4% 0;
     }
 }
+@media (min-width: 375px) {
+    .home-text-container {
+        margin: -300px 0 0 25px;
+        h1 {
+            font-size: 18px;
+        }
+    }
+  }
+//   @media (min-width: 414px) {
+    
+//   }
+//   @media (min-width: 483px) {
+    
+//   }
+  @media (min-width: 768px) {
+    .home-text-container {
+        margin: -200px 0 0 15%;
+        h1 {
+            font-size: 28px;
+        }
+    }
+  }
+  @media (min-width: 1024px) {
+    .home-text-container {
+        margin-left: 19%;
+        margin-top: -150px;
+        h1 {
+            font-size: 32px;
+        }
+    }
+  }

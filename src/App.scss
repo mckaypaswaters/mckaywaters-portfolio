@@ -80,3 +80,29 @@ body {
   background-color: rgba(255, 255, 255, .1);
   background-blend-mode: lighten;
 }
+
+@media (min-width: 375px) {
+  #home {
+    background-position-x: -525px;
+  }
+}
+@media (min-width: 414px) {
+  #home {
+    background-position-x: -540px;
+  }
+}
+@media (min-width: 483px) {
+  #home {
+    background-position-x: -540px;
+  }
+}
+@media (min-width: 768px) {
+  #home {
+    background-position-x: -220px;
+  }
+}
+@media (min-width: 1024px) {
+  #home {
+    background-position-x: 0px;
+  }
+}
