@@ -94,4 +94,142 @@
     
 }
 
-
+@media (min-width: 375px) {
+    .project-container {
+        flex-direction: column;
+        .personal-holder {
+            width: 90%;
+            margin-right: 0;
+            .projectsImg1, .projectsImg2, .projectsImg3, .projectsImg4, .projectsImg5, .projectsImg6, .projectsImg7, .projectsImg8 {
+                height: 125px;
+            }
+            h1 {
+                font-size: 16px;
+            }
+            li {
+                font-size: 10px;
+            }
+        }
+    }
+  }
+@media (min-width: 414px) {
+    
+  }
+@media (min-width: 483px) {
+    .projectsImg1, .projectsImg2, .projectsImg3, .projectsImg4, .projectsImg5, .projectsImg6, .projectsImg7, .projectsImg8 {
+        height: 200px;
+    }
+  }
+@media (min-width: 768px) {
+    
+  }
+@media (min-width: 1024px) {
+    .project-container {
+        flex-direction: row;
+        .personal-holder {
+            flex-direction: column;
+            width: 42%;
+            margin-right: 2.5%;
+            .projectsImg1, .projectsImg2, .projectsImg3, .projectsImg4, .projectsImg5, .projectsImg6, .projectsImg7, .projectsImg8 {
+                height: 350px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+            li {
+                font-size: 14px;
+            }
+        }
+        
+    }
+  }
+@media (min-width: 1430px) {
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        height: 90vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        .personal-holder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 42%;
+            margin-right: 2.5%;
+            a {
+                text-decoration: none;
+                color: white;
+                font-family: $fontFamily;
+            }
+        }
+        .project-photos-holder {
+            width: 100%;
+            margin-right: 2.5%;
+            font-family: $fontFamily;
+        }
+        .projectOne {
+            width: 100%;
+            margin-right: 2.5%;
+        }
+        .projectTwo {
+            width: 42%;
+            margin-left: 2.5%;
+        }
+        .projectsImg1 {
+            height: 350px;
+            background: url('../../assets/project-pics/canon-1.png');
+            background-size: cover;
+        }
+        .projectsImg2 {
+            height: 350px;
+            background: url('../../assets/project-pics/canon-2.png');
+            background-size: cover;
+        }
+        .projectsImg3 {
+            height: 350px;
+            background: url('../../assets/project-pics/canon-3.png');
+            background-size: cover;
+        }
+        .projectsImg4 {
+            height: 350px;
+            background: url('../../assets/project-pics/canon-4.png');
+            background-size: cover;
+        }
+        .list-holder {
+            color: white;
+            font-family: $fontFamily;
+            ul {
+                margin-left: -25px;
+            }
+            a {
+                border-bottom: solid 1px white;
+            }
+        }
+        .projectsImg5 {
+            height: 350px;
+            background: url('../../assets/waka2-pics/waka2_1.png');
+            background-size: cover;
+            background-position-x: -30px;
+        }
+        .projectsImg6 {
+            height: 350px;
+            background: url('../../assets/waka2-pics/waka2_2.png');
+            background-size: cover;
+            background-position-x: -30px;
+        }
+        .projectsImg7 {
+            height: 350px;
+            background: url('../../assets/waka2-pics/waka2_3.png');
+            background-size: cover;
+            background-position-x: -30px;
+        }
+        .projectsImg8 {
+            height: 350px;
+            background: url('../../assets/waka2-pics/waka2_4.png');
+            background-size: cover;
+            background-position-x: -30px;
+        }
+        
+    }
+}
