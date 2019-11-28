@@ -46,7 +46,23 @@
 }
 
 @media (min-width: 375px) {
-    
+    .nav-bar {
+        li {
+            visibility: hidden;
+        }
+    }
+    .nav-icons {
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 0 50px;
+        i {
+            font-size: 28px;
+            color: white;
+            margin: 0 10px;
+        }
+    }
   }
   @media (min-width: 414px) {
     
@@ -55,7 +71,14 @@
     
   }
   @media (min-width: 768px) {
-    
+    .nav-bar {
+        li {
+            visibility: visible;
+        }
+    }
+    .nav-icons {
+        visibility: hidden;
+    }
   }
   @media (min-width: 1024px) {
     

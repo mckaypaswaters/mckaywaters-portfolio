@@ -28,7 +28,25 @@ export default class Nav extends Component {
                         <li>Contact</li>
                     </a>
                 </ul>
+                <nav className='nav-icons'>
+                    <a className='a-tags' href="#home">
+                        <i className="home-icon fas fa-home"></i>
+                    </a>
+                    <a className='a-tags' href="#about">
+                        <i className="about-icon fas fa-user"></i>
+                    </a>
+                    <a className='a-tags' href="#projects">
+                        <i class="project-icon fas fa-folder-open"></i>
+                    </a>
+                    <a className='a-tags' href="#skills">
+                        <i class="skills-icon fas fa-layer-group"></i>
+                    </a>
+                    <a className='a-tags' href="#contact">
+                        <i class="contact-icon fas fa-mail-bulk"></i>
+                    </a>
+                </nav>
             </div>
+            
         )
     }
 }
