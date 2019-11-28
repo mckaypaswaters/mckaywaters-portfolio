@@ -56,11 +56,11 @@
         position: absolute;
         display: flex;
         flex-direction: row;
-        margin: 0 0 0 50px;
+        // margin: 0 0 0 50px;
         i {
             font-size: 28px;
             color: white;
-            margin: 0 10px;
+            margin: 0 20px;
         }
     }
   }
@@ -69,10 +69,10 @@
   }
   @media (min-width: 483px) {
     .nav-icons {
-        margin-left: 75px;
+        // margin-left: 75px;
         i {
             font-size: 30px;
-            margin: 0 15px;
+            margin: 0 30px;
         }
     }
   }
